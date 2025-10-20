@@ -17,3 +17,5 @@ Endpoints:
    GET /api/weather?lat=12.97&lon=77.59
 
 Note: The backend also serves static files from backend/public if present.
+
+The Sample web page: C:\Users\ELCOT\Pictures\sample page of live weather dashboard .png
