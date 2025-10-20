@@ -18,4 +18,4 @@ Endpoints:
 
 Note: The backend also serves static files from backend/public if present.
 
-The Sample web page: C:\Users\ELCOT\Pictures\sample page of live weather dashboard .png
+The Sample web page: https://docs.google.com/document/d/1YStg18_aKfSVx_azLOhBmwbL1TyzPcPt5f69kP0EbdA/edit?usp=drivesdk
