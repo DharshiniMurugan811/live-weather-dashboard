@@ -1,2 +1,19 @@
-# live-weather-dashboard
-Live Weather Dashboard  — A real-time web application built using Node.js, Express, and REST APIs, integrated with the OpenWeatherMap API to display live weather conditions, temperature, humidity, wind speed, and more for any city.  Frontend: HTML, CSS, JavaScript-Backend: Node.js, Express.js (REST API)-API Source: OpenWeatherMap
+Backend (Node.js Express)
+1. Install dependencies:
+   cd backend
+   npm install
+
+2. Create .env with your OpenWeatherMap API key:
+   cp .env.example .env
+   (edit .env and set OPENWEATHER_API_KEY)
+
+3. Run:
+   npm start
+   or for development:
+   npm run dev
+
+Endpoints:
+   GET /api/weather?city=London
+   GET /api/weather?lat=12.97&lon=77.59
+
+Note: The backend also serves static files from backend/public if present.

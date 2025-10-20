@@ -1,0 +1,14 @@
+* { box-sizing: border-box; font-family: Inter, system-ui, Arial, sans-serif; }
+body { background: linear-gradient(180deg,#e6f0ff,#f9fbff); margin:0; padding:20px; color:#111; }
+.container { max-width:720px; margin:20px auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 6px 24px rgba(10,20,50,0.08); }
+h1 { margin-top:0; }
+.search { display:flex; gap:8px; margin-bottom:12px; }
+.search input { flex:1; padding:10px; border-radius:8px; border:1px solid #ddd; }
+.search button { padding:10px 12px; border-radius:8px; border:0; cursor:pointer; background:#2563eb; color:white; }
+.card { padding:16px; border-radius:8px; border:1px solid #eef2ff; background:linear-gradient(180deg,#ffffff,#fbfdff); }
+.hidden { display:none; }
+.row { display:flex; gap:12px; align-items:center; }
+.col { flex:1; }
+.big { font-size:48px; font-weight:600; }
+.muted { color:#555; }
+.error { background:#fff0f0; color:#7a1a1a; padding:12px; border-radius:8px; margin-top:12px; }

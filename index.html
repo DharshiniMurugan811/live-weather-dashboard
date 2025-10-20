@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Live Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Live Weather Dashboard</h1>
+    <div class="search">
+      <input id="cityInput" placeholder="Enter city (e.g. London)" />
+      <button id="searchBtn">Search</button>
+      <button id="geoBtn">Use My Location</button>
+    </div>
+
+    <div id="card" class="card hidden">
+      <h2 id="location"></h2>
+      <div id="weatherDesc" class="muted"></div>
+      <div class="row">
+        <div class="col">
+          <div class="big" id="temp"></div>
+          <div id="feels"></div>
+        </div>
+        <div class="col">
+          <div>Humidity: <span id="humidity"></span>%</div>
+          <div>Wind: <span id="wind"></span> m/s</div>
+          <div>Coordinates: <span id="coords"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="error" class="error hidden"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

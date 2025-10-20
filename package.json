@@ -1,0 +1,21 @@
+{
+  "name": "live-weather-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Simple Node.js Express REST API proxy for OpenWeatherMap",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
