@@ -127,9 +127,6 @@ function App(){
           <div className="small-note">Powered by OpenWeatherMap</div>
         </aside>
       </div>
-      <footer>
-        <div>Tip: Replace the API key later to keep it private.</div>
-      </footer>
     </div>
   );
 }
